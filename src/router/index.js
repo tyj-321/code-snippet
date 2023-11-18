@@ -6,6 +6,11 @@ const routes = [
     name: 'CustomPoint',
     component: () => import('../views/CustomPoint.vue')
   },
+  {
+    path: '/autoScroll',
+    name: 'AutoScroll',
+    component: () => import('../views/AutoScroll/AutoScroll.vue')
+  },
 ]
 
 const router = createRouter({
