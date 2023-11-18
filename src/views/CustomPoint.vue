@@ -12,10 +12,9 @@ import { ref } from 'vue'
 import { onMounted } from 'vue';
 import { useThrottleFn } from '@vueuse/core'
 const mouse = ref(null)
-const x = ref(0)
-const y = ref(0)
 const rotate = ref(0)
 const handleMouseMove = useThrottleFn((e) => {
+  // 节流处理，并获取方向
   if (Math.abs(e.movementX) + Math.abs(e.movementY) > 1) {
     rotate.value = Math.atan2(e.movementX, -e.movementY)
   }
