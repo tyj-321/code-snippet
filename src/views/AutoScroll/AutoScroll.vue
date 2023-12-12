@@ -21,6 +21,7 @@ const { startScroll, stopScroll } = useAutoScroll('auto-scroll')
   height: 300px;
   margin: 5% auto;
   overflow-y: auto;
+  border: 1px solid #000;
 
   &::-webkit-scrollbar {
     display: none;
