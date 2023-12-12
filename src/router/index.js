@@ -16,6 +16,11 @@ const routes = [
     name: 'NumDance',
     component: () => import('../views/NumDance.vue'),
   },
+  {
+    path: '/borderLight',
+    name: 'borderLight',
+    component: () => import('../views/BorderLight.vue'),
+  },
 ]
 
 const router = createRouter({
