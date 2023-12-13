@@ -18,8 +18,18 @@ const routes = [
   },
   {
     path: '/borderLight',
-    name: 'borderLight',
+    name: 'BorderLight',
     component: () => import('../views/BorderLight.vue'),
+  },
+  {
+    path: '/uplift',
+    name: 'Uplift',
+    component: () => import('../views/Uplift.vue'),
+  },
+  {
+    path: '/shoppingCart',
+    name: 'ShoppingCart',
+    component: () => import('../views/ShoppingCart.vue'),
   },
 ]
 
