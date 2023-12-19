@@ -31,6 +31,11 @@ const routes = [
     name: 'ShoppingCart',
     component: () => import('../views/ShoppingCart.vue'),
   },
+  {
+    path: '/numToChinese',
+    name: 'NumToChinese',
+    component: () => import('../views/NumToChinese.vue'),
+  },
 ]
 
 const router = createRouter({
