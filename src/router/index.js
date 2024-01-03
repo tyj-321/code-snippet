@@ -36,6 +36,11 @@ const routes = [
     name: 'NumToChinese',
     component: () => import('../views/NumToChinese.vue'),
   },
+  {
+    path: '/fusion',
+    name: 'Fusion',
+    component: () => import('../views/Fusion.vue'),
+  },
 ]
 
 const router = createRouter({
