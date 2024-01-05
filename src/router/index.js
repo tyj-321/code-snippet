@@ -41,6 +41,11 @@ const routes = [
     name: 'Fusion',
     component: () => import('../views/Fusion.vue'),
   },
+  {
+    path: '/flipClock',
+    name: 'FlipClock',
+    component: () => import('../views/FlipClock.vue'),
+  },
 ]
 
 const router = createRouter({
